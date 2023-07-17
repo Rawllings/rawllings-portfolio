@@ -9,7 +9,7 @@ function Contacts() {
     <div>
       <Sidebar />
       <div style={{ paddingLeft: "250px" }}>
-        <div className="w-1/3">
+        <div>
           <h1
             className="pt-5 font-bold text-4xl underline underline-offset-8 "
             style={{ paddingLeft: "350px" }}
@@ -76,22 +76,24 @@ function Contacts() {
                 placeholder="Your message"
                 className="border-2 border-blue-200 rounded p-2 mb-5 h-24 bg-gray-200 w-full"
               />
-              <input type="submit" className="bg-black text"/>
+              <div>
+              <input type="submit" className="bg-black text-white rounded font-bold py-2 px-10 hover:bg-gray-500" style={{marginLeft:"120px"}}/>
+              </div>
             </form>
           </div>
         </div>
        
       </div>
 
-      <div className="mt-20" style={{ marginLeft: "300px" }}>
+      <div className="mt-11" style={{ marginLeft: "300px" }}>
           <hr />
-        </div>
-        <h1
+      </div>
+      <h1
           className="text-xl pl-20 text-gray-500 pt-4"
           style={{ paddingLeft: "550px" }}
         >
           © Dev Rawllings All rights reserved
-        </h1>
+      </h1>
       
     </div>
   );

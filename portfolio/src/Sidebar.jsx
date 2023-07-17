@@ -128,6 +128,9 @@ function Sidebar() {
             </li>
           </ul>
         </div>
+        {/* <div className="border border-red-500">
+          <hr />
+        </div> */}
       </aside>
     </div>
   );
