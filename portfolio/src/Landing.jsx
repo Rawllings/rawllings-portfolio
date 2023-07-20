@@ -73,8 +73,11 @@ function Landing() {
           className="text-xl pl-20 text-gray-500 pt-4"
           style={{ paddingLeft: "50px" }}
         >
-          © Dev Rawllings All rights reserved
+          © {new Date().getFullYear()}  Dev Rawllings All rights reserved
         </h1>
+        {/* <div className="text-center text-blue-900 font-semibold hover:text-blue-700 text-sm">
+          © {new Date().getFullYear()} Optica Limited | All Rights Reserved.
+        </div> */}
       </div>
     </div>
   );

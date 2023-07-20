@@ -49,7 +49,7 @@ function About() {
           className="text-xl pl-20 text-gray-500 pt-4"
           style={{ paddingLeft: "550px" }}
         >
-          © Dev Rawllings All rights reserved
+          © {new Date().getFullYear()}  Dev Rawllings All rights reserved
         </h1>
     </div>
   );

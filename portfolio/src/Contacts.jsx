@@ -59,16 +59,19 @@ function Contacts() {
           <div className="grid gap-0 pt-9" style={{paddingLeft:"200px"}}>
             <form action="" className=" flex flex-col w-full">
               <input
+              required
                 type="text"
                 placeholder="Your name"
                 className="border-2 border-blue-200 rounded p-2 mb-5 bg-gray-200"
               />
               <input
+              required
                 type="email"
                 placeholder="Your email"
                 className="border-2 border-blue-200 rounded p-2 mb-5 bg-gray-200"
               />
               <textarea
+              required
                 name=""
                 id=""
                 cols="30"
@@ -92,7 +95,7 @@ function Contacts() {
           className="text-xl pl-20 text-gray-500 pt-4"
           style={{ paddingLeft: "550px" }}
         >
-          © Dev Rawllings All rights reserved
+          © {new Date().getFullYear()}  Dev Rawllings All rights reserved
       </h1>
       
     </div>
