@@ -17,6 +17,8 @@ function Services() {
           My Services
         </h1>
 
+        
+
         <div className="flex flex-row gap-4 pt-5">
           {/* WEB DEVELOPMENT  */}
           <div class="block max-w-sm p-3 text-center bg-gray-200 border border-gray-200 rounded-lg shadow hover:-translate-y-2 transition duration-300
@@ -79,6 +81,10 @@ function Services() {
             </p>
           </div>
         </div>
+
+
+
+
       </div>
 
       <div className="" style={{ marginLeft: "300px", marginTop: "115px" }}>
