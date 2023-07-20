@@ -29,10 +29,9 @@ function Work() {
                 alt=""
               />
             </a>
-            <div class="p-5">
+            <div class="p-5 ">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                The project is Amazon E-commerce clone web app that enables
-                users to shop and order online.It has various features like user
+                The project is Amazon E-commerce clone online shop web app. It has various features like user
                 authentication, seaching items, order page, and many more.
               </p>
               <a
@@ -86,7 +85,7 @@ function Work() {
               alt=""
             />
 
-            <div class="p-5">
+            <div class="p-2 pl-5">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 The project is a web app that enables users to search for rental
                 houses of their choice.It has various features like categorising
